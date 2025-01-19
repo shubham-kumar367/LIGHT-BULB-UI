@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: khaki; 
+    margin: 0;
+}
+.container {
+    text-align: center;
+    position: fixed;
+}
+button {
+    padding: 10px 20px;
+    margin: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 100px;
+    border: none; 
+    background-color: #0e7111; 
+    color: white;
+}
+button:hover {
+    background-color: yellowgreen; 
+}
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    z-index: 1000; 
+}
+.modal h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: red;
+}
+#bulbContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.bulb {
+    margin: 0 10px;
+}
+.bulb img {
+    width: 50px;
+    height: auto;
+}
+#resetBtn {
+    background-color: orange; 
+    color: white;
+    border-radius: 100px;
+}
+#resetBtn:hover {
+    background-color: #da190b; 
+}
+.hidden {
+    display: none;
+}
+#startBtn {
+    margin-bottom: 0%; 
+}
